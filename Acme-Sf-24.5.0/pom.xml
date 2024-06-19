@@ -29,7 +29,7 @@
 		<groupId>Acme</groupId>
 		<artifactId>Parent-Pom</artifactId>
 		<version>24.5.0</version>
-		<relativePath>../../pom-24.5.0.xml</relativePath>
+		<relativePath>../pom-24.5.0.xml</relativePath>
 	</parent>
 	
 </project>
