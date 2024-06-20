@@ -14,7 +14,6 @@ package acme.roles;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 
 import acme.client.data.AbstractRole;
 import lombok.Getter;
@@ -35,7 +34,6 @@ public class Consumer extends AbstractRole {
 	private String				company;
 
 	@NotBlank
-	@NotNull
 	private String				sector;
 
 	// Derived attributes -----------------------------------------------------
