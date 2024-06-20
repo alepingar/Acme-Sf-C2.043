@@ -18,7 +18,9 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favourite-link1 = 29543977V: Martín Muñoz, Álvaro
+master.menu.anonymous.favourite-link2 = 53930555V: Picón Garrote, Alexander
+
 
 # master.menu.administrator ###################################################
 
