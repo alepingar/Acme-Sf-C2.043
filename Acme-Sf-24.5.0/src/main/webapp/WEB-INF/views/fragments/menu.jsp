@@ -23,6 +23,9 @@
 	        <acme:menu-suboption code="master.menu.anonymous.all-training-modules" action="/any/training-module/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link1" action="https://www.goldsgym.com/"/>
             <acme:menu-suboption code="master.menu.anonymous.favourite-link2" action="https://www.fortnite.com/?lang=es-ES"/>
+            <acme:menu-separator/>
+      		<acme:menu-suboption code="master.menu.any.contracts" action="/any/contract/list"/>
+      		<acme:menu-separator/>
 			<acme:menu-separator/>	
 			
 
