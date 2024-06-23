@@ -1,9 +1,12 @@
 
-package acme.roles;
+package acme.roles.client;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
@@ -15,7 +18,8 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Sponsor extends AbstractRole {
+public class Client extends AbstractRole {
+
 	// Serialisation identifier -----------------------------------------------
 
 	private static final long	serialVersionUID	= 1L;
@@ -23,20 +27,21 @@ public class Sponsor extends AbstractRole {
 	// Attributes -------------------------------------------------------------
 
 	@NotBlank
-	@Length(max = 75)
-	private String				name;
+	@Column(unique = true)
+	@Pattern(regexp = "^CLI-[0-9]{4}$", message = "La referencia debe seguir el patrón CLI-XXXX")
+	private String				identification;
 
 	@NotBlank
-	@Length(max = 100)
-	private String				expectedBenefits;
+	@Length(max = 75)
+	private String				companyName;
+
+	@NotNull
+	private ClientType			clientType;
+
+	@NotBlank
+	@Email
+	private String				email;
 
 	@URL
-	private String				webPage;
-
-	@Email
-	private String				emailContact;
-
-	// Derived attributes -----------------------------------------------------
-
-	// Relationships ----------------------------------------------------------
+	private String				link;
 }
