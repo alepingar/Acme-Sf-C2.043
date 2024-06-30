@@ -1,0 +1,31 @@
+key,record-id,completeness-percentage,progress-comment,registration-moment,responsible-person,key:contract,draft-mode
+progress-log-01,PG-AH-0123,53.7,This is an example,2015/12/07 05:19,Casemiro,contract-01,false
+progress-log-02,PG-GJ-3927,97.9,Sin &.-sentido,2020/02/21 22:59,مرحباً بالعالم,contract-02,true
+progress-log-03,PG-K-2193,76.6,T3xt0 c0n num3r0s,2007/01/13 19:20,Ñejo,contract-03,true
+progress-log-04,PG-LN-2139,62.1,Ejemplos y mas ejemplos,2020/04/09 17:45,你好 世界,contract-04,true
+progress-log-05,PG-H-4820,25.4,No me des fallos,2011/05/23 01:02,Pedro Sanchez,contract-05,true
+progress-log-06,PG-D-3920,26.8,Frase de ejemplo mas larga que otras,2006/07/02 11:00,Jose Maria Aznar,contract-10,true
+progress-log-07,PG-GS-4291,12.0,I dont know what i do,2015/08/17 12:36,Carlos,contract-01,true
+progress-log-08,PG-XW-1028,64.2,希望你也能享受这美好的一天。,2016/09/07 07:07,Vini Jr,contract-01,true
+progress-log-09,PG-BV-2939,0.1,Example comment,2021/03/11 20:01,CR7,contract-08,true
+progress-log-10,PG-Z-0283,01.0,%6/jkan por probar mas cosas,2018/10/01 23:59,Lionel Messi,contract-07,true
+progress-log-11,PG-BC-0456,99.9,Meeting all milestones,2020/11/01 10:30,Julia Martinez,contract-02,true
+progress-log-12,PG-DE-0789,85.6,Developing new features,2017/09/23 14:45,Lucas Silva,contract-03,true
+progress-log-13,PG-FG-1012,55.0,Finalizing the project,2016/07/18 08:20,Juan Carlos,contract-04,true
+progress-log-14,PG-HI-1345,63.4,Improving performance,2015/05/12 17:50,Mariana Lopez,contract-05,true
+progress-log-15,PG-JK-1678,90.1,Testing the system,2014/03/15 12:00,Santiago Cruz,contract-06,true
+progress-log-16,PG-LM-1901,72.3,Optimizing resources,2019/01/05 09:40,Ana Torres,contract-07,true
+progress-log-17,PG-NO-2234,56.7,Updating the database,2021/03/16 19:30,Pedro Sanchez,contract-08,true
+progress-log-18,PG-PQ-2567,69.5,Integrating new module,2011/08/20 06:10,Lucia Ramirez,contract-09,true
+progress-log-19,PG-RS-2890,80.9,Ensuring quality standards,2010/06/25 23:50,Javier Hernandez,contract-10,true
+progress-log-20,PG-TU-3123,92.0,Preparing for launch,2019/04/19 15:35,Marcos Diaz,contract-11,true
+progress-log-21,PG-VW-3456,66.6,Enhancing security,2018/02/28 18:45,Carla Reyes,contract-12,true
+progress-log-22,PG-XY-3789,50.5,Documenting processes,2007/12/22 11:25,Ricardo Ortiz,contract-13,true
+progress-log-23,PG-ZA-4012,74.3,Training team members,2019/10/14 20:15,Sofia Medina,contract-14,true
+progress-log-24,PG-BC-4345,88.8,Performing maintenance,2015/08/07 09:05,Isabel Soto,contract-15,true
+progress-log-25,PG-DE-4678,67.4,Completing tasks on time,2004/06/09 21:55,Antonio Ruiz,contract-16,true
+progress-log-26,PG-FG-4901,79.2,Resolving issues quickly,2013/04/19 14:20,Maria Fernandez,contract-17,true
+progress-log-27,PG-HI-5234,53.3,This is a progress comment with exactly one hundred characters to test the limit in this field,2009/02/15 07:30,Carlos Vega,contract-18,true
+progress-log-28,PG-JK-5567,82.5,Meeting client's needs,2014/12/11 12:40,Susana Alvarez,contract-19,true
+progress-log-29,PG-LM-5890,60.1,Aligning with objectives,2009/10/28 16:10,Rafael Garcia,contract-20,true
+progress-log-30,PG-NO-6123,77.0,Implementing feedback,2018/09/21 04:55,Valeria Rios,contract-21,true

@@ -23,6 +23,9 @@
 	        <acme:menu-suboption code="master.menu.anonymous.all-training-modules" action="/any/training-module/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link1" action="https://www.goldsgym.com/"/>
             <acme:menu-suboption code="master.menu.anonymous.favourite-link2" action="https://www.fortnite.com/?lang=es-ES"/>
+            <acme:menu-separator/>
+      		<acme:menu-suboption code="master.menu.any.contracts" action="/any/contract/list"/>
+      		<acme:menu-separator/>
 			<acme:menu-separator/>	
 			
 
@@ -45,6 +48,7 @@
 			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="http://www.example.com/"/>
 		</acme:menu-option>
 		
+
 		<acme:menu-option code="master.menu.sponsor" access="hasRole('Sponsor')">
 			<acme:menu-suboption code="master.menu.sponsor.sponsorships" action="/sponsor/sponsorship/list-mine"/>
 			<acme:menu-separator/>
@@ -53,6 +57,13 @@
 			<acme:menu-suboption code="master.menu.sponsor.dashboard" action="/sponsor/sponsor-dashboard/show"/>
 		</acme:menu-option>
 		
+
+		<acme:menu-option code="master.menu.client" access="hasRole('Client')">
+			<acme:menu-suboption code="master.menu.client.contracts" action="/client/contract/list"/>
+			<acme:menu-suboption code="master.menu.client.progressLogs" action="/client/progress-log/list"/>
+			<acme:menu-suboption code="master.menu.client.dashboard" action="/client/client-dashboard/show"/>
+		</acme:menu-option>
+
 	</acme:menu-left>
 
 	<acme:menu-right>
@@ -65,6 +76,8 @@
 			<acme:menu-suboption code="master.menu.user-account.provider" action="/authenticated/provider/update" access="hasRole('Provider')"/>
 			<acme:menu-suboption code="master.menu.user-account.become-consumer" action="/authenticated/consumer/create" access="!hasRole('Consumer')"/>
 			<acme:menu-suboption code="master.menu.user-account.consumer" action="/authenticated/consumer/update" access="hasRole('Consumer')"/>
+			<acme:menu-suboption code="master.menu.user-account.become-client" action="/authenticated/client/create" access="!hasRole('Client')"/>
+			<acme:menu-suboption code="master.menu.user-account.client" action="/authenticated/client/update" access="hasRole('Client')"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.sign-out" action="/authenticated/system/sign-out" access="isAuthenticated()"/>
