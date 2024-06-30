@@ -44,6 +44,15 @@
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
 			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="http://www.example.com/"/>
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.sponsor" access="hasRole('Sponsor')">
+			<acme:menu-suboption code="master.menu.sponsor.sponsorships" action="/sponsor/sponsorship/list-mine"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.sponsor.invoices" action="/sponsor/invoice/list-mine"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.sponsor.dashboard" action="/sponsor/sponsor-dashboard/show"/>
+		</acme:menu-option>
+		
 	</acme:menu-left>
 
 	<acme:menu-right>

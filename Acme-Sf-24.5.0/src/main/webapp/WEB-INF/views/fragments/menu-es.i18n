@@ -41,6 +41,14 @@ master.menu.provider.favourite-link = Enlace favorito
 master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Enlace favorito
 
+
+# master.menu.sponsor ########################################################
+
+master.menu.sponsor = Patrocinador
+master.menu.sponsor.sponsorships = Patrocinio
+master.menu.sponsor.invoices = Facturas
+master.menu.sponsor.dashboard = Dashboard
+
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
