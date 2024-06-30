@@ -16,25 +16,31 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Sponsor extends AbstractRole {
+
 	// Serialisation identifier -----------------------------------------------
+
 
 	private static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
 
+
 	@NotBlank
 	@Length(max = 75)
 	private String				name;
 
-	@NotBlank
 	@Length(max = 100)
-	private String				expectedBenefits;
+	@NotBlank
+	private String				expectedBenefitsList;
 
 	@URL
-	private String				webPage;
+	@Length(max = 255)
+	private String				link;
 
 	@Email
-	private String				emailContact;
+	@Length(max = 255)
+	private String				email;
+
 
 	// Derived attributes -----------------------------------------------------
 
