@@ -1,0 +1,31 @@
+key,code,instantiation-moment,provider-name,customer-name,goals,budget,key:project,key:client,draft-mode
+contract-01,AHJ-123,2015/02/03 00:00,Pedro Garcia,مرحباً بالعالم,This is a goal,"EUR 23.50",project-01,client-01,false
+contract-02,Z-679,2020/01/31 23:59,Kiko Femenia,Saint Denis,Sin &.-sentido,"EUR 21.63",project-02,client-02,true
+contract-03,IP-870,2006/04/11 20:48,Keisuke Honda,Myke Tyson,T3xt0 c0n num3r0s,"USD 30.90",project-02,client-01,true
+contract-04,XWT-720,2009/03/08 18:37,Borja Mayoral,Pedro Picapiedra,Ejemplos y mas ejemplos,"USD 76.01",project-04,client-02,true
+contract-05,S-293,2000/11/26 10:26,Vini Junior,你好 世界,No me des fallos,"GBP 08.89",project-05,client-01,true
+contract-06,HV-201,2000/10/30 11:15,مرحباً بالعالم,Ilia Topuria,Frase de ejemplo mas larga que otras,"GBP 37.40",project-06,client-02,true
+contract-07,KLB-502,2018/08/07 05:04,你好 世界,Curro Jimenez,I dont know what i do,"USD 82.64",project-07,client-01,true
+contract-08,ON-394,2021/02/28 01:53,Aleix Garcia,Unai Simon,لك يوماً سعيداً ومليئاً بالنجاح والسعدة,"EUR 12.29",project-08,client-02,true
+contract-09,A-029,2005/06/13 08:22,Mariano Rajoy,Patrick Bateman,Example goals,"GBP 21.08",project-09,client-01,true
+contract-10,PJ-320,2003/12/25 12:31,Adolfo Suarez,Axel Blaze,望你也能享受这美好的一天。,"USD 91.57",project-10,client-02,true
+contract-11,BCD-456,2018/07/21 15:30,Ana Lopez,Hello World,Complete the project on time,"USD 15.00",project-01,client-01,true
+contract-12,EFG-789,2012/11/11 09:45,Juan Perez,こんにちは世界,Meet all requirements,"GBP 100.75",project-02,client-02,true
+contract-13,HIK-101,2005/05/05 12:00,Laura Martin,Bonjour le monde,Ensure quality standards,"EUR 40.00",project-01,client-01,true
+contract-14,LMN-202,2019/01/01 00:00,Maria Ruiz,Hola Mundo,Develop new features,"USD 30.00",project-04,client-02,true
+contract-15,PQR-303,2010/03/10 18:15,Jorge Sanchez,안녕하세요 세계,Increase efficiency,"GBP 35.50",project-05,client-01,true
+contract-16,TUV-404,2001/08/25 14:50,Raul Gomez,Ciao mondo,Reduce costs,"EUR 60.00",project-06,client-02,true
+contract-17,WXY-505,2013/04/18 06:30,Carlos Diaz,Hej världen,Improve user experience,"USD 02.00",project-07,client-01,true
+contract-18,ZAB-606,2008/06/30 21:45,Sofia Morales,Olá mundo,Maximize ROI,"GBP 57.00",project-08,client-02,true
+contract-19,CDE-707,2014/10/10 07:00,David Martinez,Привет мир,Ensure compliance,"EUR 25.00",project-09,client-01,true
+contract-20,FGH-808,2009/02/22 23:59,Elena Fernandez,Salut monde,Deliver on schedule,"USD 5.60",project-10,client-02,true
+contract-21,IJK-909,2003/12/15 13:25,Manuel Ortiz,Hallo Welt,Optimize performance,"GBP 9.00",project-01,client-01,true
+contract-22,LMO-111,2007/07/07 10:10,Pablo Castro,Γειά σου Κόσμε,Boost productivity,"EUR 8.00",project-02,client-02,true
+contract-23,PRS-222,2011/05/09 17:40,Nuria Garcia,مرحبا بالعالم,Reduce downtime,"USD 11.00",project-04,client-01,true
+contract-24,TUV-333,2016/11/11 22:30,Teresa Ramos,Hej Verden,Enhance security,"GBP 60.00",project-04,client-02,true
+contract-25,XYZ-444,2004/03/04 08:20,Isabel Lopez,Привіт Світ,Expand market reach,"EUR 28.00",project-05,client-01,true
+contract-26,ABC-555,2017/09/19 16:00,Roberto Gomez,Hola món,Innovate solutions,"USD 50.00",project-06,client-02,true
+contract-27,DEF-666,2002/06/21 11:50,Clara Jimenez,Bonjour le monde,Integrate systems,"GBP 15.00",project-07,client-01,true
+contract-28,GHI-777,2000/12/01 19:35,Victor Morales,Ciao mondo,Achieve milestones,"EUR 5.97",project-08,client-02,true
+contract-29,JKL-888,2013/04/04 04:44,Antonio Ruiz,Hallo wereld,Exceed expectations,"USD 70.00",project-09,client-01,true
+contract-30,MNO-999,2015/08/08 12:00,Susana Alvarez,Hola món,This is a goal with exactly one hundred characters to test the maximum character limit in this field,"GBP 04.45",project-10,client-02,true

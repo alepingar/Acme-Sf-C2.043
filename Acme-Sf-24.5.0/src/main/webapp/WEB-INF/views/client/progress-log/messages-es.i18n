@@ -1,0 +1,54 @@
+# messages-es.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+#####################################################################
+
+client.progress-log.list.title= Lista de Registros de Progreso
+client.progress-log.form.title= Detalles de Registro de Progreso
+
+#####################################################################
+
+client.progressLog.list.label.recordId = Id de Registro
+client.progressLog.list.label.completenessPercentage = Porcentaje Completado
+client.progressLog.list.label.registrationMoment = Momento del Registro
+client.progressLog.list.label.responsiblePerson = Persona Responsable
+client.progressLog.list.label.draftMode = Modo Borrador
+
+#####################################################################
+
+client.progress-log.form.label.recordId = Id de Registro
+client.progress-log.form.label.completenessPercentage = Porcentaje Completado
+client.progress-log.form.label.progressComment = Comentario de Progreso
+client.progress-log.form.label.registrationMoment = Momento del Registro
+client.progress-log.form.label.responsiblePerson = Persona Responsable
+client.progress-log.form.label.contract = Contrato
+client.progress-log.label.draftMode = Modo Borrador
+
+#####################################################################
+
+client.progressLog.button.create = Crear Registro de Progreso
+
+#####################################################################
+
+client.progress-log.button.update = Actualizar
+client.progress-log.button.delete = Borrar
+client.progress-log.button.publish = Publicar
+
+client.progress-log.button.create = Crear
+
+######################################################################
+
+client.progress-log.form.error.duplicated = Id de Registro Duplicado
+client.progress-log.form.error.completeness-too-low = El ultimo porcenaje completado que fue asignado a este contrato era mayor o igual a este valor
+client.progress-log.form.error.registration-moment-must-be-later = El momento de registro del registro de progreso debe ser posterior al momento de instanciacion del contrato
+
+#######################################################################
+
+client.progress-log.form.recordId.placeholder = PG-[A-Z]{1,2}-[0-9]{4}s
