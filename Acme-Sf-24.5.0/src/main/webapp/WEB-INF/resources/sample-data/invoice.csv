@@ -1,5 +1,5 @@
 key,code,registration-time,due-date,quantity,tax,link,published,key:sponsorship
-invoice-01,IN-1239-1234,2022/07/29 00:00,2023/08/06 00:00,EUR 40000.00,0.21,https://example.com,false,sponsorship-01
+invoice-01,IN-1239-1234,2022/07/29 00:00,2023/08/06 00:00,EUR 40000.00,0.21,https://example.com,true,sponsorship-01
 invoice-02,IN-1238-1239,2000/01/01 00:00,2023/08/06 00:00,EUR 50000.00,0.21,https://example.com,false,sponsorship-01
 invoice-03,IN-1236-1238,2000/01/01 00:01,2023/08/06 00:00,EUR 60000.00,0.21,https://example.com,false,sponsorship-02
 invoice-04,IN-1237-1237,2022/07/29 23:59,2023/08/06 00:00,EUR 30000.00,0.21,https://example.com,false,sponsorship-01
