@@ -1,11 +1,16 @@
 
 package acme.features.sponsor.invoice;
 
+import java.util.Collection;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.data.models.Dataset;
 import acme.client.services.AbstractService;
+import acme.client.views.SelectChoices;
 import acme.entities.sponsorships.Invoice;
+import acme.entities.sponsorships.Sponsorship;
 import acme.roles.Sponsor;
 
 @Service
@@ -53,13 +58,37 @@ public class SponsorInvoiceDeleteService extends AbstractService<Sponsor, Invoic
 
 	@Override
 	public void validate(final Invoice object) {
+
 		assert object != null;
+
 	}
 
 	@Override
 	public void perform(final Invoice object) {
+
 		assert object != null;
+
 		this.repository.delete(object);
+	}
+
+	@Override
+	public void unbind(final Invoice object) {
+
+		assert object != null;
+
+		Dataset dataset;
+		SelectChoices sponsorships;
+		int sponsorId = super.getRequest().getPrincipal().getActiveRoleId();
+
+		Collection<Sponsorship> unpublishedSponsorships = this.repository.findSponsorUnpublishedSponsorship(sponsorId);
+		sponsorships = SelectChoices.from(unpublishedSponsorships, "code", object.getSponsorship());
+
+		dataset = super.unbind(object, "code", "link", "registrationTime", "dueDate", "quantity", "tax", "published");
+
+		dataset.put("sponsorship", sponsorships.getSelected().getKey());
+		dataset.put("sponsorships", sponsorships);
+
+		super.getResponse().addData(dataset);
 	}
 
 }
