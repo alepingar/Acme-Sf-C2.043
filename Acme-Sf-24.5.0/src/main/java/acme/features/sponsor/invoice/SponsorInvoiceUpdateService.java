@@ -130,6 +130,7 @@ public class SponsorInvoiceUpdateService extends AbstractService<Sponsor, Invoic
 		dataset.put("sponsorship", sponsorships.getSelected().getKey());
 
 		sponsorSponsorships = this.repository.findSponsorUnpublishedSponsorship(sponsorId);
+
 		if (!sponsorSponsorships.contains(selectedSponsorship) && selectedSponsorship != null)
 			sponsorSponsorships.add(selectedSponsorship);
 
