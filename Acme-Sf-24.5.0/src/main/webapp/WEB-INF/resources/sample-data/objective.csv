@@ -1,0 +1,11 @@
+key,instantiation-moment,title,description,priority,critical-status,start-duration,end-duration,inf-link
+objective-01,2020/12/07 22:50,Titulo de ejemplo,Descripcion de ejemplo,LOW,true,2020/12/08 21:15,2020/12/08 21:43,https://chat.openai.com/
+objective-02,2019/02/05 11:26,T1tul0,D3scr1pc10n,MEDIUM,false,2019/02/05 20:20,2019/02/05 20:23,https://ejemplo.com/
+objective-03,2000/11/19 12:30,T/t&l% r4r0,D%scr/pc/&n r4r4,HIGH,false,2001/01/01 00:00,2001/01/01 23:58,https://t3xt0r4r0.com/
+objective-04,2001/01/22 02:01,希望你也能享受这美好的一天。,DESCRPICION MAYUSCULAS,LOW,true,2002/11/19 21:15,2002/11/21 07:09,https://madrid.com/
+objective-05,2008/04/25 01:19,In English,希望你也能享受这美好的一天。,LOW,false,2008/04/25 02:20,2008/04/26 21:43,null
+objective-06,2010/03/01 23:57,TODO MAYUSCULAS,D E S C R I P C I O N,MEDIUM,true,2010/03/01 23:59,2010/03/02 05:35,https://pokemon.com/
+objective-07,2011/05/03 10:59,T i t u l o S e p a r a d o,Description in English,MEDIUM,true,2011/05/18 05:15,2011/07/08 20:34,https://nba.com/
+objective-08,2000/07/10 15:21,Objetivos,-Por probar-,HIGH,false,2001/12/08 21:15,2001/12/08 21:43,null
+objective-09,2003/09/21 20:36,-Entre guiones-,#Nomedesfallosporfa,HIGH,true,2003/09/21 20:37,2003/09/21 21:37,https://inventada.com/
+objective-10,2004/10/30 00:47,#Titulo,@h0r4 s1,HIGH,true,2004/11/01 21:15,2004/11/02 21:16,null

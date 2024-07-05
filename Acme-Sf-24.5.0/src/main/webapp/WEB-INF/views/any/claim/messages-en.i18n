@@ -1,0 +1,14 @@
+any.claim.list.title = Claims
+any.claim.form.title = Claim
+
+any.claim.label.code = Code
+any.claim.label.instantiation = Instantiation
+any.claim.label.heading = Heading
+any.claim.label.description = Description
+any.claim.label.departament = Departament
+any.claim.label.email = Email
+any.claim.label.link = Link
+
+any.claim.button.publish = Publish
+any.note.label.confirm = Confirm 
+any.claim.form.error.confirm = Confirm the claim, claims can not be edited after confirmation

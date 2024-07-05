@@ -1,0 +1,15 @@
+
+administrator.banner.list.title = Banner
+administrator.banner.form.title = Banner
+
+administrator.banner.label.slogan = Slogan
+administrator.banner.label.startTime = Start Date
+administrator.banner.label.finishTime = Finish Date
+administrator.banner.label.instationUpdateMoment = Instation Update Moment
+administrator.banner.label.linkPicture = Picture Link
+administrator.banner.label.linkDocument = Document Link
+
+administrator.banner.button.create = Create a new banner
+administrator.banner.button.create = Create
+administrator.banner.button.update = Update
+administrator.banner.button.delete = Delete

@@ -1,0 +1,14 @@
+any.claim.list.title = Reclamaciones
+any.claim.form.title = Reclamación
+
+any.claim.label.code = Código
+any.claim.label.instantiation = Fecha Instanciación
+any.claim.label.heading = Título
+any.claim.label.description = Descripción
+any.claim.label.departament = Departamento
+any.claim.label.email = Email
+any.claim.label.link = Enlace
+
+any.claim.button.publish = Publicar
+any.note.label.confirm = Confirmar 
+any.claim.form.error.confirm = Debe confirmar la reclamación, la reclamación no se podrá modificar ni eliminar
