@@ -46,5 +46,5 @@ sponsor.sponsorship.form.error.dateLate = All dates must be prior to 2201/01/01 
 sponsor.sponsorship.form.error.currencyNotAllowed = That currency is not supported by the system
 sponsor.sponsorship.form.error.startDateBeforeEndDate = Start date must be before End date
 sponsor.sponsorship.form.error.startDateLate = Start dates must be prior to 2200/12/1 00:00
-validation.sponsorship.code = There must be an obligatory code.
+validation.sponsorship.code	= The code must be in the format one to three uppercase letters, '-' and three digits
 administrator.banner.list.button.create = Create Invoice
