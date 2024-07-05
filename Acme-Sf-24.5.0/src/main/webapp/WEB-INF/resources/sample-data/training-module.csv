@@ -1,0 +1,11 @@
+key,code,creation-moment,details,difficulty-level,updated-moment,optional-link,total-time,key:project,key:developer,draft-mode
+training-module-01,LJS-303,2022/03/30 18:00,This is a detail,INTERMEDIATE,2022/03/31 18:00,https://www.example.com,30,project-01,developer-01,false
+training-module-02,ARG-304,2022/04/01 12:30,这是细节,ADVANCED,null,https://www.example.com,25,project-02,developer-02,true
+training-module-03,BSR-305,2022/04/05 15:45,تفاصيل معينة,BASIC,2022/04/06 15:45,https://www.example.com,40,project-03,developer-01,true
+training-module-04,IJS-306,2022/04/10 09:15,th1s-is*a&d3t4il,INTERMEDIATE,2022/04/11 09:15,https://www.example.com,35,project-04,developer-02,true
+training-module-05,SJP-307,2022/04/15 21:00,这是另一种细节,ADVANCED,2022/04/16 21:00,https://www.example.com,28,project-05,developer-01,true
+training-module-06,BJS-308,2022/04/20 14:20,تفاصيل معقدة,BASIC,null,https://www.example.com,45,project-06,developer-02,true
+training-module-07,ABC-309,2022/04/25 08:30,ThIs Is A dEtAiL,INTERMEDIATE,2022/04/26 08:30,https://www.example.com,32,project-07,developer-01,true
+training-module-08,XYZ-310,2022/04/30 23:15,这是一个有趣的细节,ADVANCED,2022/05/01 23:15,https://www.example.com,38,project-08,developer-02,true
+training-module-09,BBC-311,2022/05/05 17:50,تفاصيل مهمة,BASIC,null,https://www.example.com,42,project-09,developer-01,true
+training-module-10,DEF-312,2022/05/10 10:10,THIS IS A DETAIL,INTERMEDIATE,2022/05/11 10:10,https://www.example.com,30,project-10,developer-02,true
