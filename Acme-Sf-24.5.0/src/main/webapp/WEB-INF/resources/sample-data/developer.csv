@@ -1,0 +1,3 @@
+key,key:userAccount,degree,specialisation,skills,email,optional-link
+developer-01,user-account-developer-01,"This is a degree","This is a specialisation","This is a skill","dev1@ejemplo.com","https://www.ejemplo.es"
+developer-02,user-account-developer-02,"This is a degree","This is a specialisation","This is a skill","dev2@ejemplo.com","https://www.ejemplo.es"

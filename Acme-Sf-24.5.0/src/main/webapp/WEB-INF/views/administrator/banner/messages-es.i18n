@@ -1,0 +1,14 @@
+administrator.banner.list.title = Estands Publicitarios
+administrator.banner.form.title = Estand Publicitario
+
+administrator.banner.label.slogan = Slogan
+administrator.banner.label.startTime = Fecha de Inicio
+administrator.banner.label.finishTime = Fecha de Fin
+administrator.banner.label.instationUpdateMoment = Momento de Actualización
+administrator.banner.label.linkPicture = Link de Imagen
+administrator.banner.label.linkDocument = Link de Documento
+
+administrator.banner.button.create = Crear un nuevo Estand
+administrator.banner.button.create = Crear
+administrator.banner.button.update = Actualizar
+administrator.banner.button.delete = Eliminar

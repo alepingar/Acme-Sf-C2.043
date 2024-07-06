@@ -1,0 +1,11 @@
+key,code,start-date,end-date,location,instructor,contact-email,optional-link,key:training-module,draft-mode
+training-session-01,TS-LJS-333,2022/04/07 15:00,2022/04/21 17:00,Spain,This is a instructor,ts1@ejemplo.com,https://www.ejemplo.com,training-module-01,true
+training-session-02,TS-ARG-334,2022/04/10 14:30,2022/04/24 16:30,Italy,هذا مدرس,ts2@example.com,null,training-module-02,true
+training-session-03,TS-BSR-335,2022/04/15 16:00,2022/04/29 18:00,France,Alvaro,ts3@example.com,https://www.example.com,training-module-03,true
+training-session-04,TS-IJS-336,2022/04/20 17:30,2022/05/04 19:30,Germany,这是讲师,ts4@example.com,https://www.example.com,training-module-04,true
+training-session-05,TS-SJP-337,2022/04/25 19:00,2022/05/09 21:00,Japan,Lidia,ts5@example.com,null,training-module-05,true
+training-session-06,TS-ABC-338,2022/04/30 20:30,2022/05/14 22:30,United States,This is instructor,ts6@example.com,https://www.example.com,training-module-06,true
+training-session-07,TS-DFC-339,2022/05/05 22:00,2022/05/19 00:00,Canada,Oscar,ts7@example.com,https://www.example.com,training-module-07,true
+training-session-08,TS-XYZ-340,2022/05/10 23:30,2022/05/24 01:30,Brazil,هذا مدرس,ts8@example.com,null,training-module-08,true
+training-session-09,TS-KKK-341,2022/05/16 01:00,2022/05/30 03:00,Australia,Carlos,ts9@example.com,https://www.example.com,training-module-09,true
+training-session-10,TS-WFG-342,2022/05/21 02:30,2022/06/04 04:30,India,这是讲师,ts10@example.com,https://www.example.com,training-module-10,true

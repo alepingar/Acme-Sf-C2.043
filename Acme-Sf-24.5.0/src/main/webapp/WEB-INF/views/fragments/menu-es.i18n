@@ -15,10 +15,22 @@ master.menu.sign-up = Registrarse
 master.menu.sign-in = Entrar
 master.menu.sign-out = Salir
 
+# master.menu.any #######################################################
+
+master.menu.any = Cualquiera
+master.menu.any.sponsorships = Listar patrocinios
+
+
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favourite-link1 = 29543977V: Martín Muñoz, Álvaro
+master.menu.anonymous.favourite-link2 = 53930555V: Picón Garrote, Alexander
+master.menu.any.contracts = Contratos
+master.menu.any.claims = Reclamaciones
+
+
+
 
 # master.menu.administrator ###################################################
 
@@ -28,6 +40,8 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.populate-initial = Poblar BD (inicial)
 master.menu.administrator.populate-sample = Poblar BD (ejemplos)
 master.menu.administrator.shut-down = Parar el sistema
+master.menu.administrator.banner = Listar los banners
+
 
 # master.menu.provider ########################################################
 
@@ -39,6 +53,16 @@ master.menu.provider.favourite-link = Enlace favorito
 master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Enlace favorito
 
+
+# master.menu.sponsor ########################################################
+
+master.menu.sponsor = Patrocinador
+master.menu.sponsor.sponsorships = Patrocinio
+master.menu.sponsor.invoices = Facturas
+master.menu.sponsor.dashboard = Dashboard
+master.menu.user-account.become-sponsor = Hazte patrocinador
+master.menu.user-account.sponsor = Datos de patrocinador
+
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
@@ -47,3 +71,13 @@ master.menu.user-account.provider = Datos de proveedor
 master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
+master.menu.user-account.client = Datos de cliente
+master.menu.user-account.become-client = Hazte cliente
+
+
+# master.menu.client ##########################################################
+
+master.menu.client = Cliente
+master.menu.client.contracts = Contratos
+master.menu.client.progressLogs = Registros de progreso
+master.menu.client.dashboard = Panel de control	

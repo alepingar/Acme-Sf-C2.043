@@ -1,0 +1,3 @@
+key,key:userAccount,identification,company-name,client-type,email,link
+client-01,user-account-client-01,CLI-4780,Universidad de Sevilla,COMPANY,us74@acme.com,https://www.linkedin.com/in/client-01/
+client-02,user-account-client-02,CLI-2165,Microsoft,INDIVIDUAL,microsoft@example.es,null
